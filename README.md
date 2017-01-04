@@ -59,3 +59,4 @@ root     34095  6741  0 11:54 pts/0    00:00:00 grep --color=auto jenkins
 - If your face an error says Offline ![](/img/proxy-jenkins.JPG), it is a proxy issue and add proxy to jenkins application and proceed
 - Then `Install Suggested Plugins` and wait for it to complete then proceed with admin user `Continue as admin`
 - Finally your jenkins UI is up and runnnig when you say `Start using Jenkins` ![](/img/jenkins-final-ui.JPG)
+- Start Playing with Jenkins :+1:
