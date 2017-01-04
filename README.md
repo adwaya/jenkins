@@ -53,4 +53,9 @@ jenkins  32997     1  0 11:51 ?        00:00:00 /usr/bin/daemon --name=jenkins -
 jenkins  32998 32997 11 11:51 ?        00:00:17 /usr/bin/java -Djava.awt.headless=true -jar /usr/share/jenkins/jenkins.war --webroot=/var/cache/jenkins/war --httpPort=8080
 root     34095  6741  0 11:54 pts/0    00:00:00 grep --color=auto jenkins
 ```
-- Check the application via the URL `<hostname?:8080` and find the below UI ![](/jenkins-ui.png)
+- Check the application via the URL `<hostname?:8080` and find the below UI ![](/img/ui-jenkins.JPG)
+- The above screen needs an **administator** password to unlock the jenkins and normally this will be stored under the location mentioned `/var/lib/jenkins/secrets/initialAdminPassword`
+- CopyPaste the password `efe635a7840d437e6339658f2b9656c0` and proceed
+- If your face an error says Offline ![](/img/proxy-jenkins.JPG), it is a proxy issue and add proxy to jenkins application and proceed
+- Then `Install Suggested Plugins` and wait for it to complete then proceed with admin user `Continue as admin`
+- Finally your jenkins UI is up and runnnig when you say `Start using Jenkins` ![](/img/jenkins-final-ui.JPG)
