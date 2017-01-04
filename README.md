@@ -53,4 +53,4 @@ jenkins  32997     1  0 11:51 ?        00:00:00 /usr/bin/daemon --name=jenkins -
 jenkins  32998 32997 11 11:51 ?        00:00:17 /usr/bin/java -Djava.awt.headless=true -jar /usr/share/jenkins/jenkins.war --webroot=/var/cache/jenkins/war --httpPort=8080
 root     34095  6741  0 11:54 pts/0    00:00:00 grep --color=auto jenkins
 ```
-- Check the application via the URL <hostname:8080>
+- Check the application via the URL `<hostname?:8080` and find the below UI ![](/jenkins-ui.png)
