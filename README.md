@@ -37,7 +37,7 @@ Running hooks in /etc/ca-certificates/update.d...
 done.
 done.
 ```
-- Check the installation of jenkins using `service jenkins status' and see the below output
+- Check the installation of jenkins using `service jenkins status` and see the below output
 ```
 ● jenkins.service - LSB: Start Jenkins at boot time
    Loaded: loaded (/etc/init.d/jenkins; bad; vendor preset: enabled)
