@@ -7,4 +7,4 @@
 - Java 8 is needed : `apt-get install openjdk-8-jdk`
 - Finally, install Jenkins and its dependencies : `sudo apt install jenkins`
 - Let's start Jenkins using `systemctl start jenkins`
-- Access Jenkins WebUI using <IPAddress>:8080 on the browser
+- Access Jenkins WebUI using `<IPAddress>:8080` on the browser
